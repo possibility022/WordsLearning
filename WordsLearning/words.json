@@ -1,0 +1,558 @@
+[
+  {
+    "Polish": "być",
+    "English": "be (am/is/are), was, were, been"
+  },
+  {
+    "Polish": "stawać się, zostawać kimś/czymś",
+    "English": "become, became, become"
+  },
+  {
+    "Polish": "zaczynać",
+    "English": "begin, began, begun"
+  },
+  {
+    "Polish": "łamać, pękać, rozbić, tłuc",
+    "English": "break, broke, broken"
+  },
+  {
+    "Polish": "przynosić, przyprowadzić",
+    "English": "bring, brought, brought"
+  },
+  {
+    "Polish": "budować",
+    "English": "build, built, built"
+  },
+  {
+    "Polish": "kupować",
+    "English": "buy, bought, bought"
+  },
+  {
+    "Polish": "łapać",
+    "English": "catch, caught, caught"
+  },
+  {
+    "Polish": "wybierać",
+    "English": "choose, chose, chosen"
+  },
+  {
+    "Polish": "przyjść, przyjechać",
+    "English": "come, came, come"
+  },
+  {
+    "Polish": "kosztować",
+    "English": "cost, cost, cost"
+  },
+  {
+    "Polish": "ciąć, kroić, skaleczyć",
+    "English": "cut, cut, cut"
+  },
+  {
+    "Polish": "robić",
+    "English": "do, did, done"
+  },
+  {
+    "Polish": "rysować, pociągnąć, remisować",
+    "English": "draw, drew, drawn"
+  },
+  {
+    "Polish": "śnić, marzyć",
+    "English": "dream, dreamed, dreamt, dreamed, dreamt"
+  },
+  {
+    "Polish": "pić",
+    "English": "drink, drank, drunk"
+  },
+  {
+    "Polish": "prowadzić, kierować się czymś",
+    "English": "drive, drove, driven"
+  },
+  {
+    "Polish": "jeść",
+    "English": "eat, ate, eaten"
+  },
+  {
+    "Polish": "padać, upadać, spadać",
+    "English": "fall, fell, fallen"
+  },
+  {
+    "Polish": "czuć",
+    "English": "feel, felt, felt"
+  },
+  {
+    "Polish": "znaleźć",
+    "English": "find, found, found"
+  },
+  {
+    "Polish": "latać",
+    "English": "fly, flew, flown"
+  },
+  {
+    "Polish": "dostawać",
+    "English": "get, got, got"
+  },
+  {
+    "Polish": "dawać",
+    "English": "give, gave, given"
+  },
+  {
+    "Polish": "iść",
+    "English": "go, went, gone"
+  },
+  {
+    "Polish": "rosnąć",
+    "English": "grow, grew, grown"
+  },
+  {
+    "Polish": "mieć",
+    "English": "have, had, had"
+  },
+  {
+    "Polish": "słyszeć",
+    "English": "hear, heard, heard"
+  },
+  {
+    "Polish": "uderzać",
+    "English": "hit, hit, hit"
+  },
+  {
+    "Polish": "trzymać, utrzymywać, posiadać",
+    "English": "hold, held, held"
+  },
+  {
+    "Polish": "ranić, boleć",
+    "English": "hurt, hurt, hurt"
+  },
+  {
+    "Polish": "trzymać",
+    "English": "keep, kept, kept"
+  },
+  {
+    "Polish": "znać, wiedzieć",
+    "English": "know, knew, known"
+  },
+  {
+    "Polish": "uczyć się",
+    "English": "learn, learnt, learned, learnt, learned"
+  },
+  {
+    "Polish": "opuszczać, wyjeżdżać, zostawiać",
+    "English": "leave, left, left"
+  },
+  {
+    "Polish": "pożyczać",
+    "English": "lend, lent, lent"
+  },
+  {
+    "Polish": "tracić, zgubić",
+    "English": "lose, lost, lost"
+  },
+  {
+    "Polish": "robić, wykonywać",
+    "English": "make, made, made"
+  },
+  {
+    "Polish": "znaczyć, oznaczać; mieć na myśli",
+    "English": "mean, meant, meant"
+  },
+  {
+    "Polish": "spotykać, poznać",
+    "English": "meet, met, met"
+  },
+  {
+    "Polish": "płacić",
+    "English": "pay, paid, paid"
+  },
+  {
+    "Polish": "kłaść",
+    "English": "put, put, put"
+  },
+  {
+    "Polish": "czytać",
+    "English": "read, read, read"
+  },
+  {
+    "Polish": "jeździć",
+    "English": "ride, rode, ridden"
+  },
+  {
+    "Polish": "dzwonić",
+    "English": "ring, rang, rung"
+  },
+  {
+    "Polish": "biec",
+    "English": "run, ran, run"
+  },
+  {
+    "Polish": "mówić",
+    "English": "say, said, said"
+  },
+  {
+    "Polish": "widzieć",
+    "English": "see, saw, seen"
+  },
+  {
+    "Polish": "sprzedawać",
+    "English": "sell, sold, sold"
+  },
+  {
+    "Polish": "wysyłać, słać",
+    "English": "send, sent, sent"
+  },
+  {
+    "Polish": "pokazywać",
+    "English": "show, showed, shown"
+  },
+  {
+    "Polish": "zamykać",
+    "English": "shut, shut, shut"
+  },
+  {
+    "Polish": "śpiewać",
+    "English": "sing, sang, sung"
+  },
+  {
+    "Polish": "siedzieć, siadać",
+    "English": "sit, sat, sat"
+  },
+  {
+    "Polish": "spać",
+    "English": "sleep, slept, slept"
+  },
+  {
+    "Polish": "mówić, rozmawiać",
+    "English": "speak, spoke, spoken"
+  },
+  {
+    "Polish": "spędzać, wydawać",
+    "English": "spend, spent, spent"
+  },
+  {
+    "Polish": "stać",
+    "English": "stand, stood, stood"
+  },
+  {
+    "Polish": "kraść",
+    "English": "steal, stole, stolen"
+  },
+  {
+    "Polish": "pływać",
+    "English": "swim, swam, swum"
+  },
+  {
+    "Polish": "brać",
+    "English": "take, took, taken"
+  },
+  {
+    "Polish": "uczyć",
+    "English": "teach, taught, taught"
+  },
+  {
+    "Polish": "powiedzieć",
+    "English": "tell, told, told"
+  },
+  {
+    "Polish": "myśleć, sądzić, uważać",
+    "English": "think, thought, thought"
+  },
+  {
+    "Polish": "rzucać",
+    "English": "throw, threw, thrown"
+  },
+  {
+    "Polish": "budzić",
+    "English": "wake, woke, woken"
+  },
+  {
+    "Polish": "nosić, zakładać",
+    "English": "wear, wore, worn"
+  },
+  {
+    "Polish": "rozumieć",
+    "English": "understand, understood, understood"
+  },
+  {
+    "Polish": "wygrywać",
+    "English": "win, won, won"
+  },
+  {
+    "Polish": "pisać",
+    "English": "write, wrote, written"
+  },
+  {
+    "Polish": "obudzić",
+    "English": "awake, awoke, awoken"
+  },
+  {
+    "Polish": "bić",
+    "English": "beat, beat, beaten"
+  },
+  {
+    "Polish": "ugryźć",
+    "English": "bite, bit, bitten"
+  },
+  {
+    "Polish": "krwawić",
+    "English": "bleed, bled, bled"
+  },
+  {
+    "Polish": "wiać, dmuchać",
+    "English": "blow, blew, blown"
+  },
+  {
+    "Polish": "palić, parzyć, płonąć",
+    "English": "burn, burned, burnt, burned, burnt"
+  },
+  {
+    "Polish": "kopać (np. w ziemi)",
+    "English": "dig, dug, dug"
+  },
+  {
+    "Polish": "karmić, żywić",
+    "English": "feed, fed, fed"
+  },
+  {
+    "Polish": "walczyć, bić się",
+    "English": "fight, fought, fought"
+  },
+  {
+    "Polish": "zapominać",
+    "English": "forget, forgot, forgotten"
+  },
+  {
+    "Polish": "wybaczać",
+    "English": "forgive, forgave, forgiven"
+  },
+  {
+    "Polish": "zamarzać",
+    "English": "freeze, froze, frozen"
+  },
+  {
+    "Polish": "zawieszać (coś, np. obraz)",
+    "English": "hang, hung, hung"
+  },
+  {
+    "Polish": "chować, ukrywać",
+    "English": "hide, hid, hidden"
+  },
+  {
+    "Polish": "pozwalać",
+    "English": "let, let, let"
+  },
+  {
+    "Polish": "leżeć, kłaść się",
+    "English": "lie (recline), lay, lain"
+  },
+  {
+    "Polish": "zapalać, rozpalać, oświetlać",
+    "English": "light, lighted, lit, lighted, lit"
+  },
+  {
+    "Polish": "rzucać, opuszczać",
+    "English": "quit, quit, quit"
+  },
+  {
+    "Polish": "podnosić się, wzrastać, wschodzić (o słońcu)",
+    "English": "rise, rose, risen"
+  },
+  {
+    "Polish": "trząść, potrząsać",
+    "English": "shake, shook, shaken"
+  },
+  {
+    "Polish": "świecić, błyszczeć",
+    "English": "shine, shone, shone"
+  },
+  {
+    "Polish": "strzelać",
+    "English": "shoot, shot, shot"
+  },
+  {
+    "Polish": "tonąć (o statku), zapadać się",
+    "English": "sink, sank, sunk"
+  },
+  {
+    "Polish": "wbijać, wtykać, przyklejać, wystawić",
+    "English": "stick, stuck, stuck"
+  },
+  {
+    "Polish": "uderzyć, wybijać",
+    "English": "strike, struck, struck"
+  },
+  {
+    "Polish": "drzeć, rozdzierać",
+    "English": "tear, tore, torn"
+  },
+  {
+    "Polish": "znosić, udźwignąć coś, żywić (urazę)",
+    "English": "bear, bore, borne"
+  },
+  {
+    "Polish": "zginać, nachylać",
+    "English": "bend, bent, bent"
+  },
+  {
+    "Polish": "hodować, wychować, rozmnażać się",
+    "English": "breed, bred, bred"
+  },
+  {
+    "Polish": "rzucić, zrzucić",
+    "English": "cast, cast, cast"
+  },
+  {
+    "Polish": "rozdawać, postępować, mieć do czynienia, radzić sobie",
+    "English": "deal, dealt, dealt"
+  },
+  {
+    "Polish": "zabraniać",
+    "English": "forbid, forbade, forbidden"
+  },
+  {
+    "Polish": "klękać, klęczeć",
+    "English": "kneel, knelt, kneeled, knelt, kneeled"
+  },
+  {
+    "Polish": "robić na drutach",
+    "English": "knit, knit, knitted, knit, knitted"
+  },
+  {
+    "Polish": "prowadzić",
+    "English": "lead, led, led"
+  },
+  {
+    "Polish": "szukać, poszukiwać",
+    "English": "seek, sought, sought"
+  },
+  {
+    "Polish": "umieszczać, ustawiać, zachodzić (o słońcu), osadzić, nastawić, wyznaczyć",
+    "English": "set, set, set"
+  },
+  {
+    "Polish": "kurczyć się, zbiegać",
+    "English": "shrink, shrank, shrunk"
+  },
+  {
+    "Polish": "ślizgać się, zjeżdżać",
+    "English": "slide, slid, slid"
+  },
+  {
+    "Polish": "dzielić, rodzielać",
+    "English": "split, split, split"
+  },
+  {
+    "Polish": "rozchodzić się, rozprzestrzeniać, rozkładać, rozpościerać, rozsmarować",
+    "English": "spread, spread, spread"
+  },
+  {
+    "Polish": "przysięgać, przeklinać",
+    "English": "swear, swore, sworn"
+  },
+  {
+    "Polish": "zmiatać, zamiatać",
+    "English": "sweep, swept, swept"
+  },
+  {
+    "Polish": "machnąć, zakołysać",
+    "English": "swing, swung, swung"
+  },
+  {
+    "Polish": "pojawić się",
+    "English": "arise, arose, arisen"
+  },
+  {
+    "Polish": "zakładać się, obstawiać",
+    "English": "bet, bet, bet"
+  },
+  {
+    "Polish": "umykać, uciekać, opuścić",
+    "English": "flee, fled, fled"
+  },
+  {
+    "Polish": "położyć, kłaść",
+    "English": "lay (put), laid, laid"
+  },
+  {
+    "Polish": "kręcić, zakręcić czymś/się, obrócić",
+    "English": "spin, spun, spun"
+  },
+  {
+    "Polish": "śmierdzieć, cuchnąć",
+    "English": "stink, stank, stunk"
+  },
+  {
+    "Polish": "wiązać, złączyć, oprawić (książkę)",
+    "English": "bind, bound, bound"
+  },
+  {
+    "Polish": "przywrzeć, uczepić się, trzymać się kurczowo",
+    "English": "cling, clung, clung"
+  },
+  {
+    "Polish": "skradać się, zakradać, piąć się, podchodzić",
+    "English": "creep, crept, crept"
+  },
+  {
+    "Polish": "rzucić, cisnąć",
+    "English": "fling, flung, flung"
+  },
+  {
+    "Polish": "porzucać, zaniechać, opuścić",
+    "English": "forsake, forsook, forsaken"
+  },
+  {
+    "Polish": "przepowiadać, przewidywać",
+    "English": "foretell, foretold, foretold"
+  },
+  {
+    "Polish": "zemleć, rozkruszyć, zgrzytać, ostrzyć, trzeć",
+    "English": "grind, ground, ground"
+  },
+  {
+    "Polish": "skakać",
+    "English": "leap, leapt, leaped, leapt, leaped"
+  },
+  {
+    "Polish": "piłować",
+    "English": "saw, sawed, sawn"
+  },
+  {
+    "Polish": "zrzucać, pozbywać się",
+    "English": "shed, shed, shed"
+  },
+  {
+    "Polish": "zabijać",
+    "English": "slay, slew, slain"
+  },
+  {
+    "Polish": "cisnąć, miotać",
+    "English": "sling, slung, slung"
+  },
+  {
+    "Polish": "przeskakiwać, wyskakiwać",
+    "English": "spring, sprang, sprung"
+  },
+  {
+    "Polish": "żądlić",
+    "English": "sting, stung, stung"
+  },
+  {
+    "Polish": "zmagać się z czymś, dążyć, starać się, podejmować wysiłek",
+    "English": "strive, strove, striven"
+  },
+  {
+    "Polish": "kroczyć, stąpać, deptać",
+    "English": "tread, trod, trodden"
+  },
+  {
+    "Polish": "płakać, szlochać",
+    "English": "weep, wept, wept"
+  },
+  {
+    "Polish": "nawijać, nakręcać, wić się",
+    "English": "wind, wound, wound"
+  },
+  {
+    "Polish": "wykręcić, wyżąć coś, wycisnąć",
+    "English": "wring, wrung, wrung"
+  }
+]

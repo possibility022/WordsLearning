@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using WordsLearning.ViewModels;
 
 namespace WordsLearning
 {
@@ -20,9 +8,32 @@ namespace WordsLearning
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        MainWindowViewModel _mainWindowViewModel;
+
+        MainWindowViewModel MainWindowViewModel { get => _mainWindowViewModel ?? (_mainWindowViewModel = DataContext as MainWindowViewModel); }
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void TextBox_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if (e.Key == System.Windows.Input.Key.Enter)
+            {
+                MainWindowViewModel.ShowSolution();
+            }
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            MainWindowViewModel.WindowClosing();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            MainWindowViewModel.WindowLoaded();
         }
     }
 }

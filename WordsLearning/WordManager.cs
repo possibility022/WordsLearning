@@ -33,10 +33,10 @@ namespace WordsLearning
             _timer.Elapsed += TimerElapsed;
             _timer.Start();
             
-            SetThisWeakWorlds();
+            SetThisWeakWords();
         }
 
-        private void SetThisWeakWorlds()
+        private void SetThisWeakWords()
         {
             int week = (DateTime.Now - _studyStarted).Days / 7;
             _newWords = new List<Word>(_words.Skip(week * 10).Take(10));
@@ -45,10 +45,10 @@ namespace WordsLearning
 
         private void TimerElapsed(object sender, ElapsedEventArgs e)
         {
-            SetNewWorld();
+            SetNewWord();
         }
 
-        public void SetNewWorld()
+        public void SetNewWord()
         {
             if (!_randomFromNew && _wordsUntilThisWeek.Count > 0)
             {

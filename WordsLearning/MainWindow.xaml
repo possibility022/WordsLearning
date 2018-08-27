@@ -7,11 +7,11 @@
     xmlns:local="clr-namespace:WordsLearning"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="MainWindow"
-    
     Width="443.201"
     Height="431.172"
     Closing="Window_Closing"
-    mc:Ignorable="d" Loaded="Window_Loaded">
+    Loaded="Window_Loaded"
+    mc:Ignorable="d">
 
     <Window.DataContext>
         <ViewModels:MainWindowViewModel />
@@ -19,9 +19,13 @@
 
     <Grid>
         <StackPanel>
-            <Label Content="{Binding WorldToTranslate}" />
-            <TextBox KeyUp="TextBox_KeyUp" Text="{Binding Translated}" />
-            <Label Content="{Binding ResultMessage}" />
+            <Label Content="{Binding WordToTranslate}" FontSize="30" />
+            <TextBox
+                Background="{Binding TranslatedBackground}"
+                FontSize="30"
+                KeyUp="TextBox_KeyUp"
+                Text="{Binding Translated, UpdateSourceTrigger=PropertyChanged}" />
+            <Label Content="{Binding ResultMessage}" FontSize="30" />
         </StackPanel>
     </Grid>
 </Window>

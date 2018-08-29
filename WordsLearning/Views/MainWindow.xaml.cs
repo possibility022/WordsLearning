@@ -35,5 +35,15 @@ namespace WordsLearning
         {
             MainWindowViewModel.WindowLoaded();
         }
+
+        private void NewWordButtonClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ShowCurrentListButtonClick(object sender, RoutedEventArgs e)
+        {
+            MainWindowViewModel.ShowCurrentList();
+        }
     }
 }

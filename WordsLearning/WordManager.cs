@@ -15,8 +15,8 @@ namespace WordsLearning
 
         DateTime _studyStarted = new DateTime(2018, 8, 25);
         IReadOnlyCollection<Word> _words;
-        IReadOnlyList<Word> _wordsUntilThisWeek;
-        IReadOnlyList<Word> _newWords;
+        public IReadOnlyList<Word> WordsUntilThisWeek { get; private set; }
+        public IReadOnlyList<Word> NewWords { get; private set; }
 
         private Random random = new Random((int)DateTime.Now.Ticks);
 
@@ -29,18 +29,18 @@ namespace WordsLearning
         public WordManager()
         {
             _words = JsonConvert.DeserializeObject<List<Word>>(File.ReadAllText("words.json"));
-            _timer = new Timer(15 * 60 * 1000);
+            _timer = new Timer(10 * 60 * 1000);
             _timer.Elapsed += TimerElapsed;
             _timer.Start();
-            
+
             SetThisWeakWords();
         }
 
         private void SetThisWeakWords()
         {
             int week = (DateTime.Now - _studyStarted).Days / 7;
-            _newWords = new List<Word>(_words.Skip(week * 10).Take(10));
-            _wordsUntilThisWeek = new List<Word>(_words.Take(week * 10));
+            NewWords = new List<Word>(_words.Skip(week * 10).Take(20));
+            WordsUntilThisWeek = new List<Word>(_words.Take(week * 20));
         }
 
         private void TimerElapsed(object sender, ElapsedEventArgs e)
@@ -50,15 +50,15 @@ namespace WordsLearning
 
         public void SetNewWord()
         {
-            if (!_randomFromNew && _wordsUntilThisWeek.Count > 0)
+            if (!_randomFromNew && WordsUntilThisWeek.Count > 0)
             {
-                var s = random.Next(0, _wordsUntilThisWeek.Count);
-                Word = _wordsUntilThisWeek[s];
+                var s = random.Next(0, WordsUntilThisWeek.Count);
+                Word = WordsUntilThisWeek[s];
             }
             else
             {
-                var s = random.Next(0, _newWords.Count);
-                Word = _newWords[s];
+                var s = random.Next(0, NewWords.Count);
+                Word = NewWords[s];
             }
 
             _randomFromNew = !_randomFromNew;

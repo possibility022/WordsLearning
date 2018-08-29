@@ -1,6 +1,10 @@
-﻿using Notifications.Wpf;
+﻿using Newtonsoft.Json;
+using Notifications.Wpf;
 using Prism.Mvvm;
+using System;
+using System.Text;
 using System.Windows.Media;
+using WordsLearning.Views;
 
 namespace WordsLearning.ViewModels
 {
@@ -44,6 +48,23 @@ namespace WordsLearning.ViewModels
             _wordManager.OnNewWord += _wordManager_OnNewWord;
         }
 
+        internal void ShowCurrentList()
+        {
+            var window = new TextView();
+            var dataContext = (TextViewViewModel)window.DataContext;
+
+            StringBuilder sw = new StringBuilder();
+            sw.AppendLine(JsonConvert.SerializeObject(_wordManager.WordsUntilThisWeek, Formatting.Indented));
+            sw.AppendLine(string.Empty);
+            sw.AppendLine("New Wrods:");
+            sw.AppendLine(string.Empty);
+            sw.AppendLine(JsonConvert.SerializeObject(_wordManager.NewWords, Formatting.Indented));
+
+            dataContext.Text = sw.ToString();
+
+            window.ShowDialog();
+        }
+
         internal void WindowLoaded()
         {
             _wordManager.SetNewWord();
@@ -60,6 +81,7 @@ namespace WordsLearning.ViewModels
 
             WordToTranslate = e.Polish;
             Translated = string.Empty;
+            TranslatedBackground = Brushes.White;
 
             _notificationManager.Show(notification);
         }
@@ -72,7 +94,7 @@ namespace WordsLearning.ViewModels
                 TranslatedBackground = Brushes.Red;
 
 
-                ResultMessage = _wordManager.Word.English;
+            ResultMessage = _wordManager.Word.English;
         }
 
         internal void WindowClosing()

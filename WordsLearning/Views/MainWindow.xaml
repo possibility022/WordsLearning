@@ -18,7 +18,11 @@
     </Window.DataContext>
 
     <Grid>
-        <StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
             <Label Content="{Binding WordToTranslate}" FontSize="30" />
             <TextBox
                 Background="{Binding TranslatedBackground}"
@@ -26,6 +30,11 @@
                 KeyUp="TextBox_KeyUp"
                 Text="{Binding Translated, UpdateSourceTrigger=PropertyChanged}" />
             <Label Content="{Binding ResultMessage}" FontSize="30" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Bottom">
+            <Button Content="Show current list." Click="ShowCurrentListButtonClick" />
+            <Button Content="Next Word" Click="NewWordButtonClick" />
         </StackPanel>
     </Grid>
 </Window>

@@ -45,10 +45,10 @@ namespace WordsLearning
 
         private void TimerElapsed(object sender, ElapsedEventArgs e)
         {
-            SetNewWord();
+            NextWord();
         }
 
-        public void SetNewWord()
+        public void NextWord()
         {
             if (!_randomFromNew && WordsUntilThisWeek.Count > 0)
             {

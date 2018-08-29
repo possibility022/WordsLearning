@@ -38,7 +38,7 @@ namespace WordsLearning
 
         private void NewWordButtonClick(object sender, RoutedEventArgs e)
         {
-
+            MainWindowViewModel.NextWordClick();
         }
 
         private void ShowCurrentListButtonClick(object sender, RoutedEventArgs e)

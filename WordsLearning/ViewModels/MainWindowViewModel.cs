@@ -67,7 +67,7 @@ namespace WordsLearning.ViewModels
 
         internal void WindowLoaded()
         {
-            _wordManager.SetNewWord();
+            _wordManager.NextWord();
         }
 
         private void _wordManager_OnNewWord(object sender, Word e)
@@ -82,6 +82,7 @@ namespace WordsLearning.ViewModels
             WordToTranslate = e.Polish;
             Translated = string.Empty;
             TranslatedBackground = Brushes.White;
+            ResultMessage = string.Empty;
 
             _notificationManager.Show(notification);
         }
@@ -101,5 +102,11 @@ namespace WordsLearning.ViewModels
         {
             _notificationManager.CloseWindow();
         }
+
+        internal void NextWordClick()
+        {
+            _wordManager.NextWord();
+        }
+
     }
 }
